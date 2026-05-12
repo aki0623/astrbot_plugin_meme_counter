@@ -1,0 +1,1 @@
+"""AstrBot meme counter plugin."""
