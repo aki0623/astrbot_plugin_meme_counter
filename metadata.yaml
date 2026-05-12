@@ -1,0 +1,21 @@
+name: astrbot_plugin_meme_counter
+desc: 按天统计群聊中表情包、图片表情和平台表情的发送次数，并在零点自动结算
+help: |
+  表情统计 [数量]：查看本群表情包统计排行
+  表情包前五：用转发消息查看本群前 5 表情包及次数
+  我的表情：查看自己在本群发送的表情包次数
+  表情排行 [数量]：查看本群发送者排行
+  重置表情统计：管理员重置本群统计
+version: v1.0.0
+author: AKI
+repo: ""
+display_name: 表情包统计
+short_desc: 按群按天统计表情包次数，零点自动发送结果
+support_platforms:
+  - aiocqhttp
+  - telegram
+  - qq_official
+  - lark
+  - discord
+  - slack
+  - webchat
