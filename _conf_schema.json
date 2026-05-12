@@ -1,0 +1,28 @@
+{
+  "count_images": {
+    "description": "统计图片类表情",
+    "type": "bool",
+    "hint": "开启后，群消息中的 Image 组件会计入表情包次数。",
+    "default": true
+  },
+  "count_faces": {
+    "description": "统计平台表情",
+    "type": "bool",
+    "hint": "开启后，QQ Face 等平台表情组件会计入表情包次数。",
+    "default": true
+  },
+  "default_top_limit": {
+    "description": "默认排行数量",
+    "type": "int",
+    "hint": "查询统计时默认展示前几名。",
+    "default": 10,
+    "min": 3,
+    "max": 30
+  },
+  "ignore_bot_self": {
+    "description": "忽略机器人自身消息",
+    "type": "bool",
+    "hint": "开启后，如果能识别出消息发送者是机器人自己，则不计入统计。",
+    "default": true
+  }
+}
